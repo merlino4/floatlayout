@@ -1,0 +1,16 @@
+html, body, p, h1, h2, h3, strong, em, a, i, img, ul, ol, li, div {
+  margin: 0;
+  padding: 0;
+}
+ul, ol {
+  list-style: none;
+}
+img {
+  border: 0 none;
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}

@@ -1,0 +1,77 @@
+*{
+  font-family: 'roboto', sans-serif;
+}
+
+#main{
+  width: 100%;
+  overflow: hidden;
+}
+#topbar{
+  width: 1170px;
+  margin: 5px auto;
+  overflow: hidden;
+  background-color: blue;
+}
+
+#main-nav{
+  width: 1170px;
+  height: 250px;
+  margin: auto;
+}
+#navbar{
+  float: left;
+width: 33%;
+background-color: yellow;
+height: 100%;
+}
+#article{
+  float: left;
+width: 33%;
+background-color: green;
+height: 100%;
+}
+#aside{
+  float: left;
+width: 34%;
+background-color: aquamarine;
+height: 100%;
+}
+#footer{
+  width: 1170px;
+  margin:  5px auto;
+  background-color: gold;
+}
+@media only screen and (max-width: 1170px){
+  #topbar, #main-nav, #footer{
+    width: 768px;
+  }
+  #navbar{
+    width: 50%;
+  }
+  #article{
+    width: 50%;
+  }
+  #aside{
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 768px){
+    #topbar, #main-nav, #footer{
+      width: 480px;
+    }
+
+
+    @media only screen and (max-width: 480px){
+      #topbar, #main-nav, #footer{
+        width:100%;
+        float: none;
+      }
+      #navbar{
+        width: 100%;
+      }
+      #article{
+        width: 100%;
+      }
+      #aside{
+        width: 100%;
+      }
